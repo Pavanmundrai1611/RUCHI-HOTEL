@@ -1,0 +1,456 @@
+body {
+    margin: 0%;
+}
+
+header {
+    position: fixed;
+    display: flex;
+    top: 0;
+    width: 100%;
+    flex-direction: column;
+    z-index: 999;
+    color: antiquewhite;
+}
+
+#section1 {
+    background-color: rgba(15, 13, 13, 0.85);
+}
+
+#maindisp {
+    position: relative;
+}
+
+.mdt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #e6e3eb;
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+
+.fab {
+    color: white;
+    margin: 0 8px;
+}
+
+#section2 {
+    height: 60px;
+    align-items: center;
+    display: flex;
+}
+
+.navbar-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar-list li {
+    margin: 0 10px;
+    padding: 10px;
+}
+
+#section1 .r {
+    margin-left: 46%;
+}
+
+li, a{
+    color: white;
+    text-decoration: none;
+}
+
+#section2 .rr {
+    align-items: center;
+    display: flex;
+    margin-left: 65%;
+}
+
+#section1 li {
+    box-shadow: inset -0.1px 0 0 white, inset 0.1px 0 0 white;
+}
+
+#section2 {
+    box-shadow: 0 -0.1px 0 white;
+}
+
+#section2 li {
+    text-align: center;
+    width: 105px;
+}
+
+.mdt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.owr {
+    letter-spacing: 5px;
+    animation: fadeTopLeft 1s forwards;
+}
+
+.title {
+    letter-spacing: 5px;
+    animation: fadeRight 1s forwards;
+}
+
+.tagline {
+    letter-spacing: 3px;
+    white-space: 7px;
+    animation: fadeLeft 1s forwards;
+}
+
+
+.cnt {
+    animation: fadeBottom 1s forwards;
+}
+
+@keyframes fadeTopLeft {
+    from {
+        opacity: 0;
+        transform: translate(-40px, -40px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes fadeRight {
+    from {
+        opacity: 0;
+        transform: translate(80px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes fadeLeft {
+    from {
+        opacity: 0;
+        transform: translate(-80px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes fadeBottom {
+    from {
+        opacity: 0;
+        transform: translate(0, 30px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate(0, 0);
+    }
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.mdt * {
+    margin: 10px 0;
+}
+
+.title {
+    margin-top: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 70px;
+    color: #fefdfc;
+}
+
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.cnt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+.owr {
+    font-family: Herr Von Muellerhoff;
+    color: #ffa742;
+    font-size: 35px;
+    text-align: left;
+}
+
+.chg {
+    position: absolute;
+    top: 15%;
+    left: 55%;
+}
+
+.chg1 {
+    position: relative;
+    display: inline-block;
+    /* or block, depending on your layout */
+    overflow: hidden;
+}
+
+.chg1 img {
+    width: 100%;
+    /* Ensure the image takes up the full container width */
+    transform: translateX(80px);
+    /* Start the image 80px to the right */
+    animation: fadeInRight 0.5s ease-in-out forwards;
+    /* Animation name, duration, and fill mode */
+}
+
+
+@keyframes fadeInRight {
+    from {
+        transform: translateX(380px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.bt, .be{
+    display: flex;
+}
+.ii, .tt {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc; /* Add borders for visualization */
+  }
+  
+  .ii img {
+    max-width: 100%;
+    max-height: 400px;
+  }
+  .tt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  .tt button{
+    margin: 16px;
+  }
+  .p1, .p3{
+    font-size: 50px;
+    margin: 8px;
+    font-family: Herr Von Muellerhoff;
+    color: #ffa742;
+  }
+  .p2, .p4{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(15, 15, 63);
+  }
+  .tbtn, .tbkbtn, .ebtn {
+    color: rgb(7, 7, 7);
+    font-size: 15px;
+    border-width: 0.1px;
+    background-color: #f2a64f;
+    font-family: 'Playball', cursive;
+    width: 200px;
+    padding: 5px 15px;
+    border-radius: 27px;
+}
+
+.tbtn,
+.tbkbtn,
+.ebtn {
+    transition: background-color 0.5s ease-in-out;
+}
+
+.tbtn:hover,
+.tbkbtn:hover,
+.ebtn:hover {
+    color: white;
+    background-color: #1E266D;
+}
+
+@keyframes hoverEffect {
+    0% {
+        background-position: -100% 0;
+    }
+    100% {
+        background-position: 100% 0;
+    }
+}
+
+.tbtn:hover,
+.tbkbtn:hover,
+.ebtn:hover {
+    animation: hoverEffect 0.5s ease-in-out;
+    animation-fill-mode: forwards;
+}
+.stats{
+    position: relative;
+}
+.counter{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.counter span{
+    letter-spacing: .05em;
+    font-size: 30px;
+}
+.counter p{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.counter *{
+    margin: 10PX;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.tbk{
+    text-align: center;
+}
+.trs{
+    color: #1E266D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input[type="text"]::placeholder,
+input[type="email"]::placeholder,
+input[type="tel"]::placeholder{
+    font-size: 15px;
+    color: #1E266D;
+}
+
+.trs input{
+    background-color: #AE8C6412;
+    padding: 10px;
+    border-radius: 27px;
+}
+.tbk *{
+    margin: 10px 0;
+}
+.tbk form{
+    font-size: 20px;
+}
+.tbkbtn{
+    font-size: 20px;
+    width: 100px;
+}
+
+.p11, .p33{
+    font-size: 50px;
+    margin: 8px;
+    font-family: 'Allura', cursive;
+    color: #ffa742;
+  }
+
+.wlcs{
+    text-align: center;
+}
+.wlcs p{
+    font-size: 35px;
+    margin: 8px;
+    font-weight: 600;
+    font-family: 'Allura', cursive;
+    color: #ffa742;
+}
+.wlcs .wlcp{
+    font-weight: 400;
+    font-size: 30px;
+    color: #1E266D;
+}
+.p2, .p4{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    color: rgb(15, 15, 63);
+  }
+.booking{
+    font-family: 'Playfair Display', serif;
+    font-size: 17px;
+    color: rgb(15, 15, 63);
+}
+.booking h2{
+    color: black;
+    font-family: 'Allura', cursive;
+    font-size: 70px;
+}
+.fdiv{
+    display: flex;
+    justify-content: space-evenly; 
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+.f1, .f2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f2 div{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    align-items: center;
+}
+.f1{
+    width: 500px;
+    padding: 10px;
+}
+.f1 img{
+    padding: 10px;
+}
+footer li a{
+    color:white ;
+}
+footer{
+    background-color: #3e3e3e;
+}
+.f2 li{
+    list-style: none;
+}
+.f2 *{ 
+    padding: 5px;
+
+}
+.cpr{
+    padding-bottom: 20px;
+    text-align: center;
+}

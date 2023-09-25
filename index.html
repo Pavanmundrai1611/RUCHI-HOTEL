@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=Montserrat:wght@700&family=Playball&family=Racing+Sans+One&family=Raleway:wght@500&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+
+<body>
+    <section id="maindisp">
+        <img src="C:\Users\pavan mundrai\Downloads\maindisp1.jpg" alt="" width="100%" height="700px">
+        <div class="mdt">
+            <span class="owr">
+                Pavan's
+            </span>
+            <span class="title">
+                RUCHI!
+            </span>
+            <span class="tagline">
+                WE DEFINE RUCHI AT OUT RESTAURANT
+            </span>
+            <span class="cnt">
+                +91 9303260528
+            </span>
+            <button class="mdb"> RESERVE A TABLE</button>
+        </div>
+        <div class="chg">
+            <div class="chg1"><img src="C:\Users\pavan mundrai\Downloads\cheflogo.png" alt="cheflogo" width="400px"
+                    height="400px">
+            </div>
+        </div>
+    </section>
+
+    <div class="custom-waves-container">
+        <div class="waves-layer">
+            <svg class="custom-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use xlink:href="#gentle-wave" x="48" y="0" fill="white" fill-opacity="0.7" />
+                    <!-- Opacity set to 0.7 -->
+                    <use xlink:href="#gentle-wave" x="48" y="3" fill="white" fill-opacity="0.5" />
+                    <!-- Opacity set to 0.5 -->
+                    <use xlink:href="#gentle-wave" x="48" y="5" fill="white" fill-opacity="0.3" />
+                    <!-- Opacity set to 0.3 -->
+                    <use xlink:href="#gentle-wave" x="48" y="7" fill="white" fill-opacity="1.0" />
+                    <!-- Opacity set to 1.0 (fully opaque) -->
+                </g>
+            </svg>
+        </div>
+    </div>
+
+    <section id="aboutmenu">
+        <span class="a1" style="font-weight: 500;">A delightful dining experience with an open kitchen for you to
+            observe our chef's
+            artistry.</span>
+        <br>
+        <section class="aboutmenu1">
+            <div class="imgs3">
+                <img src="C:\Users\pavan mundrai\Downloads\three.jpg" alt="" style="width: 150px; height: 200px;"
+                    class="one">
+                <img src="C:\Users\pavan mundrai\Downloads\one.jpg" alt="" style="width: 150px; height: 200px;"
+                    class="two">
+                <img src="C:\Users\pavan mundrai\Downloads\two.jpg" alt="" style="width: 150px; height: 200px;"
+                    class="three">
+            </div>
+            <div class="hh"
+                style="width: 450px; align-items: center; justify-content: center; text-align: center; display: flex; flex-direction: column;">
+                <h3 class="a2">We provide culinary excellence to curate the perfect dining experience throughout the
+                    day.</h3>
+                <span style="color: rgb(65, 61, 61);font-weight: 700;">From indulgent breakfasts to flavorful lunches
+                    and elegant
+                    dinners, complemented by a variety of
+                    snacks,
+                    refreshing juices, & more.</span>
+                <button class="menub">our services <i class="fas fa-arrow-right"></i> </button>
+            </div>
+            <div style="clear: both;"></div>
+        </section>
+    </section>
+    <br><br>
+    <section class="menugallery">
+        <span class="h11">Get ready for an unparalleled dining experience
+        </span>
+        <h4>Savor diverse culinary delights from morning to night, including fresh baked treats and beverages.
+        </h4>
+        <div class="menugallery1">
+            <div class="mg1 mg">
+                <h3>Breakfast</h3>
+                <img src="C:\Users\pavan mundrai\Downloads\mg3.jpg" alt="Lunch" style="width: 150px; height: 150px;">
+                Delight in morning classics to start your day.
+            </div>
+            <div class="mg2 mg">
+                <h3>Lunch</h3>
+                <img src="C:\Users\pavan mundrai\Downloads\mg2.jpg" alt="Lunch" style="width: 150px; height: 150px;">
+                Satisfy midday cravings with savory dishes.
+            </div>
+            <div class="mg3 mg">
+                <h3>Dinner</h3>
+                <img src="C:\Users\pavan mundrai\Downloads\mg1.jpg" alt="Breakfast"
+                    style="width: 150px; height: 150px;">
+                Elevate your evening with exquisite selections.
+            </div>
+            <div class="mg4 mg">
+                <h3>Pâtisserie</h3>
+                <img src="C:\Users\pavan mundrai\Downloads\mg4.jpg" alt="Pâtisserie"
+                    style="width: 150px; height: 150px;">
+                Tempt your taste buds with fresh baked treats.
+            </div>
+            <div class="mg5 mg">
+                <h3>Beverages</h3>
+                <img src="C:\Users\pavan mundrai\Downloads\mg5.jpg" alt="Beverages"
+                    style="width: 150px; height: 150px;">
+                Refresh with a wide array of drinks.
+            </div>
+        </div>
+    </section>
+    <div class="bookmenu">
+        <span style=" font-family: 'Playfair Display', serif; font-size: 35px; color: rgb(36, 36, 143);">An atmosphere,
+            exceptional service, & elegance
+        </span>
+        <span style="color: rgb(93, 92, 92); font-size: 20px; width: 800px; text-align: center;">Join us! We’re saving a
+            seat just for you. The Chefs invite guests
+            into our “home” to offer
+            warm hospitality, a relaxed environment, and a meal that is uniquely ours.
+        </span>
+        <button class="ebb">Book a Table <i class="fas fa-arrow-right"></i> </button>
+    </div>
+    <div class="eventbook">
+        <div>
+            <span class="ebh">Private Dining</span>
+            We combine atmosphere, exceptional service,
+            and contemporary elegance to create the perfect setting for your next corporate or social event.
+            <span class="ebf"><button class="learnmore1">Learn More</button></span>
+        </div>
+        <div>
+            <span class="ebh">Live Entertainment</span>
+            We combine atmosphere, exceptional service,
+            and contemporary elegance to create the perfect setting for your next corporate or social event.
+            <span class="ebf"><button class="learnmore2">Learn More</button></span>
+        </div>
+        <div>
+            <span class="ebh">Book An Event</span>
+            We combine atmosphere, exceptional service,
+            and contemporary elegance to create the perfect setting for your next corporate or social event.
+            <span class="ebf"><button class="learnmore3">Learn More</button></span>
+        </div>
+    </div>
+
+    <section class="reviews">
+        <img src="C:\Users\pavan mundrai\Downloads\maindisp.jpg" alt="" class="rvimg" width="100%" height="500px">
+        <div class="rcnt">
+            <p class="rp1">OUR VISITORS</p>
+            <p class="rp2">SAY ABOUT US</p>
+            <p class="rps">* * * * *</p>
+            <div class="exr">
+
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <section class="addrv">
+        <img src="C:\Users\pavan mundrai\Downloads\mdisp2.jpg" alt="" class="rvimg" width="100%" height="400px"
+            style="opacity: 0.7;">
+        <div class="rcnt2">
+            <div class="addr">
+                <span style="color: #0a0a0a; font-size: 30px; margin-top: 15px;font-family: 'Allura', cursive; ">Add a
+                    review:</span>
+                <label for="rnm">Name:</label>
+                <input type="text" id="rnm" name="name" required>
+                <label for="rv">Review:</label>
+                <textarea id="rv" name="review" rows="2" cols="20" required></textarea>
+                <label for="rating">Rating:</label>
+                <div class="star-rating" style="display: flex;flex-direction: row;">
+                    <input type="radio" id="star1" name="rating" value="1">
+                    <label for="star1"><i class="fas fa-star"></i></label>
+                    <input type="radio" id="star2" name="rating" value="2">
+                    <label for="star2"><i class="fas fa-star"></i></label>
+                    <input type="radio" id="star3" name="rating" value="3">
+                    <label for="star3"><i class="fas fa-star"></i></label>
+                    <input type="radio" id="star4" name="rating" value="4">
+                    <label for="star4"><i class="fas fa-star"></i></label>
+                    <input type="radio" id="star5" name="rating" value="5">
+                    <label for="star5"><i class="fas fa-star"></i></label>
+                </div> <button id="rvs">Submit</button>
+            </div>
+
+        </div>
+    </section>
+    <br>
+    <section class="map">
+        <span style="color: rgb(253, 252, 251); font-size: 25px; padding: 10px;    font-family: 'Allura', cursive;
+        ">Ruchi Restaurant,Rajanna Siricilla</span>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2947.403566008037!2d78.8086037232599!3d18.391636421856543!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bccfc9758176c3b%3A0x100abddb0a6a51d!2sRUCHI%20HOTEL!5e0!3m2!1sen!2sin!4v1695522733486!5m2!1sen!2sin"
+            width="1080" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <header>
+        <section id="section1">
+            <ul class="navbar-list">
+                <li class="l"><i class="fas fa-phone"></i> +91 9303260528</li>
+                <li class="l"><i class="far fa-clock"></i> Working hours: Monday - Sunday, 10:00-22:00</li>
+                <li class="r">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                </li>
+            </ul>
+        </section>
+        <section id="section2">
+            <ul class="navbar-list">
+                <li class="l"
+                    style="display: flex;flex-direction: row; justify-content: center; align-items: center; font-family: 'Montserrat', sans-serif;font-size: 30px;">
+                    RUCHI <img src="C:\Users\pavan mundrai\Downloads\mainlogo.jpg" style="margin-left: 5px;"
+                        width="30px" height="30px"></li>
+                <section class="rr">
+                    <li class="r"><a href="D:\STUDY\web D\new_hotel\reservations.html">Homepage</a></li>
+                    <li class="scroll-link" data-target="aboutmenu">About</a></li>
+                    <li class="r"><a href="D:\STUDY\web D\new_hotel\reservations.html">Reserve a Table</a></li>
+                    <li class="scroll-link" data-target="menugallery">Menu</a></li>
+                    <li class="r"><a href="#">Contact Us</a></li>
+                </section>
+            </ul>
+        </section>
+    </header>
+
+    <footer>
+        <div class="fdiv">
+            <div class="f1">
+                <img src="C:\Users\pavan mundrai\Downloads\lastlogo.jpg" alt="" class="reslog" width="150px"
+                    height="150px">
+                <span class="frt" style="font-family: 'Montserrat', sans-serif;;">Pavan's RUCHI <br> <span
+                        style="font-family: 'Allura', cursive;">-we define "Ruchi"</span></span>
+            </div>
+            <div class="f2">
+                <div>
+                    <ul>
+                        <span style="font-family: 'Montserrat', sans-serif;">ABOUT:</span>
+                        <li class="scroll-link" data-target="aboutmenu">About Ruchi</li>
+                        <li><a href="#">Plans & Pricing</a></li>
+                        <li class="scroll-link" data-target="menugallery">Services</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <span style="font-family: 'Montserrat', sans-serif;">RESOURCES:</span>
+                        <li><a href="#">Support center</a></li>
+                        <li><a href="#">Newsletter</a></li>
+                        <li><a href="#">Change log</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <span style="font-family: 'Montserrat', sans-serif;">FOLLOW US:</span>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Facebook</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="cpr">
+            © Copyrights Reserved By Ruchi 2023
+        </div>
+    </footer>
+    <section class="lmm">
+
+    </section>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const listItems = document.querySelectorAll(".scroll-link");
+
+            listItems.forEach(function (item) {
+                item.addEventListener("click", function () {
+                    const target = this.getAttribute("data-target");
+
+                    if (target) {
+                        const targetElementByClass = document.querySelector("." + target);
+                        const targetElementByID = document.getElementById(target);
+                        if (targetElementByClass) {
+                            targetElementByClass.scrollIntoView({ behavior: "smooth" });
+                        } else {
+                            targetElementByID.scrollIntoView({ behavior: "smooth" });
+                        }
+                    }
+                });
+            });
+        });
+
+
+        function updateStyles() {
+            var scrollPosition = window.scrollY;
+            var section1 = document.querySelector("#section1");
+            var section2 = document.querySelector("#section2");
+
+            if (scrollPosition >= 200) {
+                section1.style.transition = "opacity 0.5s ease-in-out";
+                section1.style.opacity = "0";
+
+                setTimeout(function () {
+                    section1.style.display = "none";
+                    section2.style.backgroundColor = '#5e5c5c'; // Change background color to grey
+                    section2.style.height = "40px"; // Reduce height to 40px
+                    section2.style.opacity = "0.9"; // Reduce opacity to 0.7
+                }, 500);
+            } else {
+                section1.style.transition = "opacity 0.5s ease-in-out";
+                section1.style.opacity = "1";
+                section1.style.display = "block";
+                section2.style.backgroundColor = ""; // Reset background color
+                section2.style.height = ""; // Reset height
+                section2.style.opacity = ""; // Reset opacity
+            }
+
+            // Request the next animation frame
+            requestAnimationFrame(updateStyles);
+        }
+
+        updateStyles();
+
+        const starRadios = document.querySelectorAll('.star-rating input[type="radio"]');
+        const submitButton = document.getElementById("rvs");
+
+        starRadios.forEach(function (radio) {
+            radio.addEventListener("click", function () {
+                const ratingValue = parseInt(this.value);
+
+                starRadios.forEach(function (starRadio) {
+                    if (parseInt(starRadio.value) <= ratingValue) {
+                        starRadio.nextElementSibling.querySelector("i").style.color = "yellow";
+                    } else {
+                        starRadio.nextElementSibling.querySelector("i").style.color = "white";
+                    }
+                });
+            });
+        });
+
+        const reviewsData = [
+            {
+                name: "John",
+                review: "Amazing food and excellent service! I highly recommend this restaurant.",
+                rating: 5,
+            },
+            {
+                name: "Alice",
+                review: "A wonderful dining experience! The food was delicious, and the staff was attentive.",
+                rating: 4,
+            },
+            {
+                name: "Michael",
+                review: "I can't say enough good things about this place. The food is top-notch, and the staff goes above and beyond.",
+                rating: 5,
+            },
+            {
+                name: "Emily",
+                review: "Great restaurant with a fantastic menu. Prices are reasonable for the quality of food you get.",
+                rating: 4,
+            },
+            {
+                name: "Sarah",
+                review: "The best restaurant in town! Every dish I've tried here has been outstanding.",
+                rating: 5,
+            },
+            {
+                name: "David",
+                review: "A solid choice for a nice meal. While there's room for improvement, it's definitely worth a visit.",
+                rating: 3,
+            },
+        ];
+
+        let currentReviewIndex = 0;
+
+        function displayReview() {
+            const reviewContainer = document.querySelector(".exr");
+            const review = reviewsData[currentReviewIndex];
+
+            if (review) {
+                const starRating = '<span class="star-rating">' + getStarRating(review.rating) + '</span>';
+                const reviewHTML = `
+                <span class="rr" style="font-size: 20px;color:white;">${review.review}</span>
+                <br><span class="rn" style="color:white; font-size: 25px;">${review.name}</span>
+                <br><span class="rs" style="display: flex; width: 200px; flex-direction: row; justify-content: space-evenly;">${starRating}</span>
+            
+        `;
+                reviewContainer.innerHTML = reviewHTML;
+
+                currentReviewIndex = (currentReviewIndex + 1) % reviewsData.length;
+
+                setTimeout(function () {
+                    displayReview();
+                }, 4000);
+            }
+        }
+
+        function getStarRating(rating) {
+            const starCount = 5;
+            let starsHTML = '';
+
+            for (let i = 1; i <= starCount; i++) {
+                if (i <= rating) {
+                    starsHTML += '<i class="fas fa-star"></i>';
+                } else {
+                    starsHTML += '<i class="far fa-star"></i>';
+                }
+            }
+
+            return starsHTML;
+        }
+
+        displayReview();
+        submitButton.addEventListener("click", function () {
+            const name = document.getElementById("rnm").value;
+            const review = document.getElementById("rv").value;
+            const rating = document.querySelector('input[name="rating"]:checked');
+
+            if (name && review && rating) {
+                const newReview = {
+                    name: name,
+                    review: review,
+                    rating: rating.value,
+                };
+
+                reviewsData.push(newReview);
+
+                document.getElementById("rnm").value = "";
+                document.getElementById("rv").value = "";
+                rating.checked = false;
+
+                // Reset star colors to gold
+                starRadios.forEach(function (starRadio) {
+                    starRadio.nextElementSibling.querySelector("i").style.color = "gold";
+                });
+
+                alert("Review submitted successfully!");
+            } else {
+                alert("Please fill in all fields and provide a rating.");
+            }
+        });
+        document.querySelector(".menub").addEventListener("click", function () {
+            const menuSection = document.querySelector(".menugallery");
+            if (menuSection) {
+                menuSection.scrollIntoView({ behavior: "smooth" });
+            }
+        });
+
+
+
+
+
+        document.addEventListener("DOMContentLoaded", function () {
+            const learnMoreButton1 = document.querySelector(".learnmore1");
+            const learnMoreButton2 = document.querySelector(".learnmore2");
+            const sectionLMM = document.querySelector(".lmm");
+
+            learnMoreButton1.addEventListener("click", function () {
+                sectionLMM.innerHTML = `
+            <button class="crs"><i class="fa-solid fa-square-xmark"></i></button>
+            <section class="lm">
+                <div class="lm1">
+                    <p style="font-size: 40px;font-family: Herr Von Muellerhoff;font-weight: 500;color: darkorange;">Private Dining</p>
+                    <p style="font-size: 20px;font-family: 'Allura', cursive;">Indulge in the essence of exclusivity with our private dining experience. Elevate your corporate gatherings or celebrate life's special moments in an atmosphere tailored to your desires. Immerse yourself in unparalleled service, contemporary elegance, and a setting that's perfect for creating lasting memories. Discover the epitome of fine dining with us.</p>
+                    <button class="ebb">Book Now</button>
+                </div>
+                <img src="C:/Users/pavan mundrai/Downloads/pvtdng.jpeg" alt="pvtdng" width="250px" height="250px">
+            </section>
+        `;
+                sectionLMM.style.display = "block";
+
+                // Add a new event listener for the close button
+                const closeButton = document.querySelector(".crs");
+                closeButton.addEventListener("click", function () {
+                    sectionLMM.style.display = "none";
+                });
+            });
+
+            learnMoreButton2.addEventListener("click", function () {
+                sectionLMM.innerHTML = `
+            <button class="crs"><i class="fa-solid fa-square-xmark"></i></button>
+            <section class="lm">
+                <div class="lm1">
+                    <p style="font-size: 40px;font-family: Herr Von Muellerhoff;font-weight: 500;color: darkorange;">Live Entertainment</p>
+                    <p style="font-size: 20px;font-family: 'Allura', cursive;">Experience the epitome of live entertainment at our venue, where we seamlessly blend ambiance, top-notch service, and modern sophistication. Whether it's a corporate gathering or a social affair, we craft the ideal backdrop for your event, ensuring an unforgettable experience for all.</p>
+                    <button class="ebb">Book Now</button>
+                </div>
+                <img src="C:/Users/pavan mundrai/Downloads/lvenmt.jpg" alt="lvenmt" width="250px" height="250px">
+            </section>
+        `;
+                sectionLMM.style.display = "block";
+
+                // Add a new event listener for the close button
+                const closeButton = document.querySelector(".crs");
+                closeButton.addEventListener("click", function () {
+                    sectionLMM.style.display = "none";
+                });
+            });
+        });
+        document.addEventListener("DOMContentLoaded", function () {
+            const learnMoreButton3 = document.querySelector(".learnmore3");
+
+            learnMoreButton3.addEventListener("click", function () {
+                window.location.href = "#";
+            });
+        });
+
+
+    </script>
+
+
+
+</body>
+
+</html>
