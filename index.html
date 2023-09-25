@@ -35,7 +35,7 @@
             <span class="cnt">
                 +91 9303260528
             </span>
-            <button class="mdb"> RESERVE A TABLE</button>
+            <button class="mdb"><a href="reservations.html">RESERVE A TABLE</a></button>
         </div>
         <div class="chg">
             <div class="chg1"><img src="cheflogo.png" alt="cheflogo" width="400px"
@@ -140,7 +140,7 @@
             into our “home” to offer
             warm hospitality, a relaxed environment, and a meal that is uniquely ours.
         </span>
-        <button class="ebb">Book a Table <i class="fas fa-arrow-right"></i> </button>
+        <button class="ebb"><a href="reservations.html">Book a Table</a> <i class="fas fa-arrow-right"></i> </button>
     </div>
     <div class="eventbook">
         <div>
@@ -159,7 +159,7 @@
             <span class="ebh">Book An Event</span>
             We combine atmosphere, exceptional service,
             and contemporary elegance to create the perfect setting for your next corporate or social event.
-            <span class="ebf"><button class="learnmore3">Learn More</button></span>
+            <span class="ebf"><button class="learnmore3"><a href="reservations.html" style="color: black;">Learn More</a></button></span>
         </div>
     </div>
 
@@ -220,9 +220,9 @@
                 <li class="l"><i class="fas fa-phone"></i> +91 9303260528</li>
                 <li class="l"><i class="far fa-clock"></i> Working hours: Monday - Sunday, 10:00-22:00</li>
                 <li class="r">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
                 </li>
             </ul>
         </section>
@@ -233,11 +233,11 @@
                     RUCHI <img src="mainlogo.jpg" style="margin-left: 5px;"
                         width="30px" height="30px"></li>
                 <section class="rr">
-                    <li class="r"><a href="reservations.html">Homepage</a></li>
+                    <li class="r"><a href="#">Homepage</a></li>
                     <li class="scroll-link" data-target="aboutmenu">About</a></li>
                     <li class="r"><a href="reservations.html">Reserve a Table</a></li>
                     <li class="scroll-link" data-target="menugallery">Menu</a></li>
-                    <li class="r"><a href="#">Contact Us</a></li>
+                    <li class="r" id="contact-us-link">Contact Us</li>
                 </section>
             </ul>
         </section>
@@ -256,7 +256,7 @@
                     <ul>
                         <span style="font-family: 'Montserrat', sans-serif;">ABOUT:</span>
                         <li class="scroll-link" data-target="aboutmenu">About Ruchi</li>
-                        <li><a href="#">Plans & Pricing</a></li>
+                        <li><a href="reservations.html">Plans & Pricing</a></li>
                         <li class="scroll-link" data-target="menugallery">Services</li>
                     </ul>
                 </div>
@@ -265,15 +265,15 @@
                         <span style="font-family: 'Montserrat', sans-serif;">RESOURCES:</span>
                         <li><a href="#">Support center</a></li>
                         <li><a href="#">Newsletter</a></li>
-                        <li><a href="#">Change log</a></li>
+                        <li id="contact-us-link2">Contact us</li>
                     </ul>
                 </div>
                 <div>
                     <ul>
                         <span style="font-family: 'Montserrat', sans-serif;">FOLLOW US:</span>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Facebook</a></li>
+                        <li><a href="https://www.instagram.com/">Instagram</a></li>
+                        <li><a href="https://twitter.com/">Twitter</a></li>
+                        <li><a href="https://twitter.com/">Facebook</a></li>
                     </ul>
                 </div>
             </div>
@@ -287,6 +287,7 @@
     </section>
 
     <script>
+
         document.addEventListener("DOMContentLoaded", function () {
             const listItems = document.querySelectorAll(".scroll-link");
 
@@ -463,10 +464,6 @@
             }
         });
 
-
-
-
-
         document.addEventListener("DOMContentLoaded", function () {
             const learnMoreButton1 = document.querySelector(".learnmore1");
             const learnMoreButton2 = document.querySelector(".learnmore2");
@@ -479,7 +476,7 @@
                 <div class="lm1">
                     <p style="font-size: 40px;font-family: Herr Von Muellerhoff;font-weight: 500;color: darkorange;">Private Dining</p>
                     <p style="font-size: 20px;font-family: 'Allura', cursive;">Indulge in the essence of exclusivity with our private dining experience. Elevate your corporate gatherings or celebrate life's special moments in an atmosphere tailored to your desires. Immerse yourself in unparalleled service, contemporary elegance, and a setting that's perfect for creating lasting memories. Discover the epitome of fine dining with us.</p>
-                    <button class="ebb">Book Now</button>
+                    <button class="ebb nnn"><a href="reservations.html">Book Now</a></button>
                 </div>
                 <img src="pvtdng.jpeg" alt="pvtdng" width="250px" height="250px">
             </section>
@@ -500,7 +497,7 @@
                 <div class="lm1">
                     <p style="font-size: 40px;font-family: Herr Von Muellerhoff;font-weight: 500;color: darkorange;">Live Entertainment</p>
                     <p style="font-size: 20px;font-family: 'Allura', cursive;">Experience the epitome of live entertainment at our venue, where we seamlessly blend ambiance, top-notch service, and modern sophistication. Whether it's a corporate gathering or a social affair, we craft the ideal backdrop for your event, ensuring an unforgettable experience for all.</p>
-                    <button class="ebb">Book Now</button>
+                    <button class="ebb nnn"><a href="reservations.html">Book Now</a></button>
                 </div>
                 <img src="lvenmt.jpg" alt="lvenmt" width="250px" height="250px">
             </section>
@@ -514,14 +511,32 @@
                 });
             });
         });
-        document.addEventListener("DOMContentLoaded", function () {
-            const learnMoreButton3 = document.querySelector(".learnmore3");
 
-            learnMoreButton3.addEventListener("click", function () {
-                window.location.href = "#";
+        document.addEventListener("DOMContentLoaded", function () {
+            const contactUsLink = document.getElementById("contact-us-link");
+
+            contactUsLink.addEventListener("click", function (event) {
+                event.preventDefault();
+
+                const mapSection = document.querySelector(".map");
+                if (mapSection) {
+                    mapSection.scrollIntoView({ behavior: "smooth" });
+                }
             });
         });
 
+        document.addEventListener("DOMContentLoaded", function () {
+            const contactUsLink = document.getElementById("contact-us-link2");
+
+            contactUsLink.addEventListener("click", function (event) {
+                event.preventDefault();
+
+                const mapSection = document.querySelector(".map");
+                if (mapSection) {
+                    mapSection.scrollIntoView({ behavior: "smooth" });
+                }
+            });
+        });
 
     </script>
 
